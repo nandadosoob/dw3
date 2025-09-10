@@ -13,4 +13,4 @@ export class ContatoController {
     return reply.send(contatos);
   }
   // ... etc ...
-}
+} 

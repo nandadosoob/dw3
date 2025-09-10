@@ -25,6 +25,7 @@ export class ContatoController {
   async createContato(request, reply) {
     const novoContato = this.contatoService.createContato(request.body);
     return reply.code(201).send(novoContato);
+
   }
 
   async updateContato(request, reply) {
